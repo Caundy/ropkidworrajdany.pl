@@ -41,9 +41,20 @@ p{
   line-height: 1.6em;
 }
 
+p.description{
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 400;
+}
+
 p.mapdescription{
   font-size: 1.3em;
   text-align: left;
+}
+
+p.invitation{
+  font-weight: 600;
+  font-size: 1.3em;
 }
 
 div.caption{
@@ -74,6 +85,10 @@ img.map{
 @media (max-width: 768px){
   img{
     max-width: 100%;
+  }
+  
+  img.map{
+    float: none;
   }
   
   div.thumbnail{
