@@ -58,6 +58,10 @@ p.invitation{
   line-height: 1.2em;
 }
 
+p.picdescription{
+  font-size: 1em;
+}
+
 div.caption{
   font-size: 1.4em;
 }
