@@ -54,6 +54,23 @@ footer{
   text-align: center;
 }
 
+img.logo{
+  max-width: 100%;
+}
+
+/*fix - wyrównanie do ramki loga*/
+div.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+div.col-lg-6{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+img.map{
+  float: right;
+}
+
 @media (max-width: 768px){
   img{
     max-width: 100%;
