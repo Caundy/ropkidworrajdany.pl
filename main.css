@@ -55,6 +55,7 @@ p.mapdescription{
 p.invitation{
   font-weight: 600;
   font-size: 1.3em;
+  line-height: 1.2em;
 }
 
 div.caption{
@@ -82,6 +83,25 @@ img.map{
   float: right;
 }
 
+/*style dla tabeli podstrony kontakt*/
+table tr{
+  border: 1px solid gray;
+}
+
+table td{
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+table tr td:first-child{
+  font-weight: 600;
+}
+
+div.tableholder{
+  margin-bottom: 20px;
+}
+
+/*media queries na telefony*/
 @media (max-width: 768px){
   img{
     max-width: 100%;
