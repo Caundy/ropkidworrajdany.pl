@@ -155,6 +155,10 @@ hr.quote-hr{
   color: gray;
 }
 
+img.gallery-img{
+  max-width: 100%;
+}
+
 /*media queries na telefony*/
 @media (max-width: 768px){
   img{
