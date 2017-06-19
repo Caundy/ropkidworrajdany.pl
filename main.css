@@ -111,6 +111,32 @@ div.tableholder{
   margin-bottom: 20px;
 }
 
+div.opinionholder{
+  max-width: 40%;
+  margin-bottom: 20px;
+}
+
+div.opinionholder div{
+  margin-bottom: 20px;
+}
+
+div.opinionholder div:first-child p.quote{
+  padding-top: 20px;
+}
+
+div.opinionholder div p.author{
+  margin-bottom: 20px;
+}
+
+p.quote, p.author{
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+p.author{
+  font-weight: bold;
+}
+
 /*klasa pomocnicza*/
 p.centered{
   text-align: center;
@@ -122,6 +148,11 @@ table.bordered-between tr td:first-child{
 
 h2.margin-bottom-zero, p.margin-bottom-zero{
   margin-bottom: 0;
+}
+
+hr.quote-hr{
+  width: 30%;
+  color: gray;
 }
 
 /*media queries na telefony*/
