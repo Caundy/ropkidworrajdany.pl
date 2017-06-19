@@ -164,6 +164,15 @@ img.gallery-img{
   max-width: 100%;
 }
 
+a.grayed-out{
+  color: #8a8a8a;
+  text-decoration: underline;
+}
+
+a:hover, a:link{
+  color: #8a8a8a;
+}
+
 /*media queries na telefony*/
 @media (max-width: 768px){
   img{
