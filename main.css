@@ -95,14 +95,33 @@ table tr{
 table td{
   padding: 5px;
   font-size: 1.4em;
+  text-align: left;
 }
 
-table tr td:first-child{
+table:not(.bordered-between) tr td:first-child{
   font-weight: 600;
+}
+
+table.bordered-between tr td:nth-child(even){
+  font-weight: 600;
+  text-align: right;
 }
 
 div.tableholder{
   margin-bottom: 20px;
+}
+
+/*klasa pomocnicza*/
+p.centered{
+  text-align: center;
+}
+
+table.bordered-between tr td:first-child{
+  border-right: 1px solid gray;
+}
+
+h2.margin-bottom-zero, p.margin-bottom-zero{
+  margin-bottom: 0;
 }
 
 /*media queries na telefony*/
