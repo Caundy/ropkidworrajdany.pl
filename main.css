@@ -103,6 +103,12 @@ table td{
   text-align: left;
 }
 
+table td a{
+  padding: 5px;
+  font-size: 1.2em;
+  text-align: left;
+}
+
 table:not(.bordered-between) tr td:first-child{
   font-weight: 600;
 }
@@ -164,12 +170,12 @@ img.gallery-img{
   max-width: 100%;
 }
 
-a.grayed-out{
+nav a.grayed-out{
   color: #8a8a8a;
   text-decoration: underline;
 }
 
-a:hover, a:link{
+nav a:hover, nav a:link{
   color: #8a8a8a;
 }
 
