@@ -127,6 +127,12 @@ div.opinionholder{
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px){
+  div.opinionholder{
+    max-width: 80%;
+  }
+}
+
 div.opinionholder div{
   margin-bottom: 20px;
 }
